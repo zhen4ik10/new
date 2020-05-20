@@ -1,0 +1,160 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+div, form, input, button, a, p, ul {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+.container {
+	width: 1171px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgba(78,189,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 62px;
+	color: #fff;
+	padding-bottom: 130px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	font-size: 37px;
+	width: 558px;
+	margin-top: 147px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	width: 401px;
+	line-height: 1.65em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin-top: 45px;
+	margin-bottom: 36px;
+}
+
+.btn {
+	display: block;
+	background: #ffd429;
+	width: 223px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: black;
+	padding: 20px 25px;
+	text-align: center;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #d8b21a;
+}
+
+.desktop {
+	padding-top: 10px;
+	padding-left: 36px;
+}
+
+.learn {
+	padding-top: 108px;
+	padding-bottom: 119px;
+}
+
+.section-title 	{
+	text-align: center;
+	font-size: 30px;
+}
+
+.skills{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 73px;
+}
+
+.skill {
+	width: 300px;
+	background: url(../img/icon1.png) no-repeat top center;
+	padding: 85px 0 12px;
+}
+
+.skill-title {
+	font-size: 19px;
+}
+
+.skill-text {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	color: #201b2d;
+}
+
+.skill-travels {
+	background: url(../img/icon2.png) no-repeat top center;
+}
+
+.skill-gold {
+	background: url(../img/icon3.png) no-repeat top center;
+}
+
+.mail {
+	background: #ecf3f8;
+	padding-top: 102px;
+	padding-bottom: 104px;
+}
+
+.form {
+	margin-top: 60px;
+}
+
+.input {
+	display: block;
+	margin: 15px 414px;
+	width: 343px;
+	border: 1px solid #bbbbbb;
+	font-size: 15px;
+	height: 45px;
+	padding-left: 23px;
+}
+
+.btn-form {
+	width: 343px;
+	margin: 13px 414px;
+}
+
+.footer {
+	background: #164d7a;
+	padding-top: 60px;
+	padding-bottom: 63px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+
+
