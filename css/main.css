@@ -35,12 +35,12 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .title {
 	font-size: 37px;
 	width: 558px;
-	margin-top: 147px;
 }
 
 .title span {
@@ -75,7 +75,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .desktop {
 	padding-top: 10px;
-	padding-left: 36px;
 }
 
 .learn {
@@ -131,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .input {
 	display: block;
-	margin: 15px 414px;
+	margin: 0 auto 12px;
 	width: 343px;
 	border: 1px solid #bbbbbb;
 	font-size: 15px;
@@ -141,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-form {
 	width: 343px;
-	margin: 13px 414px;
+	margin: 0 auto;
 }
 
 .footer {
@@ -153,6 +152,80 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	text-align: center;
 }
+
+/*Responsive*/
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+	
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+		margin-top: 130px; 
+		align-items: stretch;
+	}
+	.desktop {
+		display: block;
+		width: 641px;
+		margin: 72px auto 0;
+	}
+	.title {
+		width: 100%;
+	}
+	.intro {
+		width: auto;
+	}
+}
+	
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.desktop{
+		width: 100%;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		background: url(../img/icon1.png) no-repeat left top;
+		padding: 0 0 0 100px;
+		margin-bottom: 30px;
+		text-align: left;
+	}
+	.skill-travels {
+		background: url(../img/icon2.png) no-repeat left top;
+	}
+	.skill-gold {
+		background: url(../img/icon3.png) no-repeat left top;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn-form {
+		width: 100%;
+	}
+}
+	
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn-form {
+		width: 100%;
+	}
+}
+	
 
 
 
